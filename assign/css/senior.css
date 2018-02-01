@@ -1,0 +1,221 @@
+body
+{
+	margin:0px;
+}
+		/* logo and home to contact*/
+.main1
+{
+	width:100%;
+	background-color:white;	
+}
+.div1
+{
+	width:50%;
+	height:10%;
+	background-repeat:no-repeat;
+	float:left;
+	padding:2px;
+}
+.div2
+{
+	width:40%;
+	height:10%;
+	float:right;
+}
+.one
+{
+	background-color:#ff7f27;
+	border-radius:12px;
+	color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	margin-top:20px;
+	margin-right:10px;
+}
+.two
+{
+	background-color:#004040;
+	border-radius:12px;
+	color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	margin-right:10px;
+}
+.three
+{
+	background-color:#B97A57;
+	border-radius:12px;
+	color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	margin-right:10px;
+}
+.four
+{
+	background-color:#3F48CC;
+	border-radius:12px;
+	color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	margin-right:10px;
+}
+.five
+{
+	background-color:#B5E61D;
+	border-radius:12px;
+	color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+			/*background-image*/
+
+.main2
+{
+	width:100%;
+	clear:both;	
+}
+.div3
+{
+	background-image:url("..//images/bgk2.jpg");
+	height:40%;
+	width:100%;
+}
+.head1
+{
+	font-size:50px;
+	text-align:center;
+	color:#fa6f57;
+	font-weight:bold;
+	font-size:50px;
+	margin-top:0px;
+	padding-top:30px;
+}
+.para1
+{
+	/*font-weight:bold;*/
+	font-size:20px;
+	text-align:center;
+	margin-top:60px;
+	margin-bottom:50px;
+	color:green;
+}
+.home_link
+{
+	text-decoration:none;
+	text-align:center;
+	padding-right:20px;
+	font-weight:bold;
+	color:#434a54;
+	font-size:20px;
+}
+		
+		
+		/*tab-Table*/
+.main3
+{
+	width:100%;
+	height:50%;
+	clear:both;	
+}
+		
+body {font-family: "Lato", sans-serif;}
+
+ul.tab {
+    list-style-type: none;	
+    border: 1px solid #ccc;
+    background-color: #00C5AD;
+	border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+	font-size:14px;
+	font-weight:bold;
+	height:40px;
+	padding:3px;
+	margin-bottom:-2px;
+	border-bottom:none;
+	width:1100px;
+	margin:auto;
+	margin-top:32px;
+	display:overflow;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	width:180px;
+}
+
+/* Change background color of links on hover */
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color:#fff; 
+	color:#00C5AD;
+	border-top-left-radius:4px;
+	border-top-right-radius:4px;
+	margin-top:-2px;
+	margin-left:-3px;
+}
+
+/* Style the tab content */
+.tabcontent 
+{
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+	width:1082px;
+	margin:auto;
+}
+
+.displaypanel
+{
+    border-right: 1px solid #00c5ad;
+    border-left: 1px solid #00c5ad;
+    border-bottom: 4px solid #00c5ad;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+
+.back
+{
+	clear:both;
+	float:right;
+}
+
+		/*footer*/
+.main4
+{
+	width:100%;
+	height:10%;
+	clear:both;	
+}
+.footer
+{
+	background-color:#AAB2BD;
+	color:black;
+	height:100%;
+	margin:auto;
+	padding-top:15px;
+	text-align:center;
+	font-size:20px;
+}
