@@ -1,0 +1,126 @@
+<html>
+<head>
+<title> Playgroup (Priya S. Borole)
+</title>
+	<link rel="stylesheet" type="text/css" href="css/play.css">
+</head>
+<body>
+<div>
+	<div class="main1">
+		<div class="div1"> <img src="images\Logo.png"></div>
+		<div class="div2">
+			<a class="one" href="testnew.html">Home</a>
+			<a class="two" href="about.html" >About Us</a>
+			<a class="three" href="program.html" >Programs</a>
+			<a class="four" href="gallery.html" >Gallery</a>
+			<a class="five" href="contact.html" >Contact</a>
+		</div>
+		<div> <img src="images\bar.png" width="100%" height="5px" style="margin:auto;"> </div>
+	</div>
+	
+	<div class="main2"> 
+		<div class="div3">
+			<h1 class="head1">PLAYGROUP</h1>
+			<p class="para1"> THE 1<sup>st</sup> STEP IN PRESCHOOL</p>
+			<center><a href="#" class="home_link">Home</a>
+				<img src="images\arrow.png">
+			<a href="#" class="home_link">Program</a>
+				<img src="images\arrow.png">
+			<a href="#" class="home_link">Playgroup</a>
+			</center>
+		</div>
+	</div>
+	
+	<div class="main3">
+	<ul class="tab">
+	  <li><a href="#" class="tablinks" onclick="displayData(event, 'FocusArea')">Focus Areas</a></li>
+	  <li><a href="#" class="tablinks" onclick="displayData(event, 'AgeGroup')">Age Group</a></li>
+	  <li><a href="#" class="tablinks" onclick="displayData(event, 'Timing')">Timing</a></li>
+	  <li><a href="#" class="tablinks" onclick="displayData(event, 'Method')">Method</a></li>
+	  <li><a href="#" class="tablinks" onclick="displayData(event, 'Activities')">Activities</a></li>
+	</ul>
+
+	<div id="FocusArea" class="tabcontent displaypanel divbor">
+	  <p> <strong> <q>Faith is taking the first step even when you don't see the whole staircase</q> </strong> </p>
+	  <p> <strong>-Martin Luther King</strong> </p>
+	  <ul style="list-style-type:square">
+		<li>Communicating with Others</li>
+		<li>Building Cognitive Power</li>
+		<li>Making New Friends</li>
+		<li>Nurturing Creativity</li>
+	</div>
+
+	<div id="AgeGroup" class="tabcontent displaypanel divbor">
+	  <ul style="list-style-type:square">
+		<li>1&#189; years to 3 years</li>
+	  </ul>
+	</div>
+
+	<div id="Timing" class="tabcontent displaypanel divbor">
+	  <ul style="list-style-type:square">
+		<li>2 hour program</li>
+	  </ul>
+	</div>
+
+	<div id="Method" class="tabcontent displaypanel divbor">
+		<p>Every day is filled with fun activities and everything we do is designed to educate. 
+			Along with Value Education, your child will learn and acquire skills in:<p>
+	  <ul style="list-style-type:square">
+		<li>Language</li>
+		<li>Math</li>
+		<li>Gross and Fine Motor</li>
+		<li>Social</li>
+		<li>Emotional</li>
+		<li>Cognitive</li>
+		<li>Aesthetic/Creative</li>
+	  </ul>
+	</div>
+
+	<div id="Activities" class="tabcontent displaypanel divbor">
+		<p>Every day is filled with fun activities and everything we do is designed to educate. Along with Value Education, 
+			your child will learn and acquire skills in:</p>
+	  <ul style="list-style-type:square">
+		
+		<li>Water Play</li>
+		<li>Festival Celebrations</li>
+		<li>Theme-based Dressing</li>
+		<li>Socio Dramatic Play</li>
+		<li>Dough Play</li>
+		<li>Sports Day</li>
+		<li>Annual Day</li>
+		<li>Grand Parents' Day</li>
+		<li>Mothers' Day</li>
+		<li>Fancy Dress</li>
+	  </ul>
+	</div>
+
+	<script>
+	function displayData(event, tabName)
+	 {
+		var i, tabcontent, tablinks;
+		tabcontent = document.getElementsByClassName("tabcontent");
+		for (i = 0; i < tabcontent.length; i++) 
+		{
+		   tabcontent[i].style.display = "none";
+		}
+		tablinks = document.getElementsByClassName("tablinks");
+		for (i = 0; i < tablinks.length; i++) 
+		{
+			tablinks[i].className = tablinks[i].className.replace(" active", "");
+		}
+		document.getElementById(tabName).style.display = "block";
+		evt.currentTarget.className += " active";
+	}
+	</script>
+		    <div class="back"> 
+				<a href=" " target="_top"><img src="images\backtotop.png" width="55" height="55"></a>
+			</div>
+	</div>
+	
+	<div class="main4">
+		<div> <img src="images\bar.png" width="100%" height="5%" style="margin:auto;"> </div>
+		<div class="footer">&#9400;COPYRIGHTS ALIFA KIDS 2016,ALL RIGHTS RESERVED.</div>
+	</div>
+</div>
+</body>
+</html>
